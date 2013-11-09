@@ -69,7 +69,7 @@ public class BinderData extends BaseAdapter {
 	     
 	      holder.tvCity = (TextView)vi.findViewById(R.id.tvCity); // city name
 	      holder.tvWeather = (TextView)vi.findViewById(R.id.tvCondition); // city weather overview
-	      holder.tvTemperature =  (TextView)vi.findViewById(R.id.tvTemp); // city temperature
+	    //  holder.tvTemperature =  (TextView)vi.findViewById(R.id.tvTemp); // city temperature
 	      holder.tvWeatherImage =(ImageView)vi.findViewById(R.id.list_image); // thumb image
 	 
 	      vi.setTag(holder);
@@ -83,7 +83,7 @@ public class BinderData extends BaseAdapter {
 	      
 	      holder.tvCity.setText(weatherDataCollection.get(position).get(KEY_CITY));
 	      holder.tvWeather.setText(weatherDataCollection.get(position).get(KEY_CONDN));
-	      holder.tvTemperature.setText(weatherDataCollection.get(position).get(KEY_TEMP_C));
+	      //holder.tvTemperature.setText(weatherDataCollection.get(position).get(KEY_TEMP_C));
 	      
 	      //Setting an image
 	      String uri = "drawable/"+ weatherDataCollection.get(position).get(KEY_ICON);

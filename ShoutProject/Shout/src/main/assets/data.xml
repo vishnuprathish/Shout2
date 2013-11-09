@@ -2,92 +2,92 @@
 <Weather>
 	<weatherdata>
 	    <id>1</id>
-		<city>Manoj Kelath</city>
-       	<tempc>0°C</tempc>
-       	<tempf>32°F</tempf>
-		<condition>Snowing</condition>
-		<windspeed>5 kmph</windspeed>
-		<icon>snowing</icon>
+		<city>Manoj Shouts for biking at lauda Trail</city>
+       	<tempc> 4 Km from here</tempc>
+       	<tempf> test</tempf>
+		<condition>Wednesday 4.30 PM</condition>
+		<windspeed>Extreme</windspeed>
+		<icon>manoj</icon>
 	</weatherdata>
 	<weatherdata>
 	    <id>2</id>
-		<city>Mohammed Shinoy</city>
+		<city>Shinoy Shouts to play tennis</city>
 		<tempc>23°C</tempc>
        	<tempf>73.4°F</tempf>
-		<condition>Thunderstorms</condition>
+		<condition>In half an hour</condition>
 		<windspeed>10 kmph</windspeed>
-		<icon>thunder</icon>
+		<icon>shinoy</icon>
 	</weatherdata>
 	<weatherdata>
 	    <id>3</id>
-		<city>Radhika Kartha</city>
+		<city>Radhika wants to have cofee</city>
 		<tempc>5°C</tempc>
        	<tempf>41°F</tempf>
-		<condition>Rainy</condition>
+		<condition>Now!!</condition>
 		<windspeed>2 kmph</windspeed>
-		<icon>rainy</icon>
+		<icon>radhika</icon>
 	</weatherdata>
 	<weatherdata>
 	    <id>4</id>
-		<city>Vlad Nedoshytko</city>
+		<city>Vlad wants to learn russian</city>
        	<tempc>18°C</tempc>
        	<tempf>64.4°F</tempf>
-		<condition>Cloudy</condition>
+		<condition>Valid till next month</condition>
 		<windspeed>7 kmph</windspeed>
-		<icon>cloudy</icon>
+		<icon>vlad</icon>
 	</weatherdata>
 	<weatherdata>
 	    <id>5</id>
-		<city>Vishnu Prathish</city>
+		<city>Vishnu wants to get rich</city>
        	<tempc>32°C</tempc>
        	<tempf>89.6°F</tempf>
-		<condition>Sunny</condition>
+		<condition>Not happening anytime</condition>
 		<windspeed>10 kmph</windspeed>
-		<icon>sunny</icon>
+		<icon>vishnu</icon>
 	</weatherdata>
     <weatherdata>
         <id>6</id>
-        <city>Vishnu Prathish</city>
+        <city>pollka wants to startup</city>
         <tempc>32°C</tempc>
         <tempf>89.6°F</tempf>
-        <condition>Sunny</condition>
+        <condition>Next year</condition>
         <windspeed>10 kmph</windspeed>
-        <icon>sunny</icon>
+        <icon>pollka</icon>
     </weatherdata>
     <weatherdata>
         <id>7</id>
-        <city>Najma Nose</city>
+        <city>Najma Jose wants to serve homecooked food</city>
         <tempc>32°C</tempc>
         <tempf>89.6°F</tempf>
-        <condition>Sunny</condition>
+        <condition>Tonight</condition>
         <windspeed>10 kmph</windspeed>
-        <icon>sunny</icon>
+        <icon>najma</icon>
     </weatherdata>
     <weatherdata>
         <id>8</id>
-        <city>Ahamed Hisham</city>
+        <city>Ahamed Hisham wants to Jam</city>
         <tempc>32°C</tempc>
         <tempf>89.6°F</tempf>
-        <condition>Sunny</condition>
+        <condition>sometime soon</condition>
         <windspeed>10 kmph</windspeed>
-        <icon>sunny</icon>
+        <icon>hisham</icon>
     </weatherdata>
     <weatherdata>
         <id>9</id>
-        <city>Arun Krishnakumar</city>
+        <city>Arun Krishnakumar wants to go clubbing</city>
         <tempc>32°C</tempc>
         <tempf>89.6°F</tempf>
-        <condition>Sunny</condition>
+        <condition>Tonight!!</condition>
         <windspeed>10 kmph</windspeed>
-        <icon>sunny</icon>
+        <icon>arun</icon>
     </weatherdata>
     <weatherdata>
         <id>10</id>
-        <city>Nishil Mohammed</city>
+        <city>Nishil Mohammed wants to purify water</city>
         <tempc>32°C</tempc>
         <tempf>89.6°F</tempf>
-        <condition>Sunny</condition>
+        <condition>nano tech</condition>
         <windspeed>10 kmph</windspeed>
-        <icon>sunny</icon>
+        <icon>nishil</icon>
     </weatherdata>
 </Weather>
