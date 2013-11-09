@@ -16,49 +16,17 @@ package com.ShoutApp.shout;
         import org.w3c.dom.Element;
         import org.w3c.dom.Node;
         import org.w3c.dom.NodeList;
-        import java.io.File;
+
         import java.io.IOException;
-        import java.io.InputStream;
         import java.util.ArrayList;
         import java.util.HashMap;
         import java.util.List;
-        import java.util.Map;
-        import android.os.Bundle;
-        import android.app.Activity;
+
         import android.content.Intent;
         import android.util.Log;
-        import android.view.Menu;
-        import android.view.View;
         import android.widget.AdapterView;
         import android.widget.ListView;
         import android.widget.AdapterView.OnItemClickListener;
-        import android.widget.SimpleAdapter;
-        import java.io.File;
-        import java.io.IOException;
-        import java.io.InputStream;
-        import java.util.ArrayList;
-        import java.util.HashMap;
-        import java.util.List;
-        import java.util.Map;
-
-        import javax.xml.parsers.DocumentBuilder;
-        import javax.xml.parsers.DocumentBuilderFactory;
-
-        import org.w3c.dom.Document;
-        import org.w3c.dom.Element;
-        import org.w3c.dom.Node;
-        import org.w3c.dom.NodeList;
-
-        import android.os.Bundle;
-        import android.app.Activity;
-        import android.content.Intent;
-        import android.util.Log;
-        import android.view.Menu;
-        import android.view.View;
-        import android.widget.AdapterView;
-        import android.widget.ListView;
-        import android.widget.AdapterView.OnItemClickListener;
-        import android.widget.SimpleAdapter;
 
 public class TopRatedFragment extends Fragment {
 
@@ -75,7 +43,7 @@ public class TopRatedFragment extends Fragment {
     // List items
     ListView list;
     BinderData adapter = null;
-    List<HashMap<String,String>> weatherDataCollection;
+    List<HashMap<String,String>> hashMapList;
 
 
     @Override
@@ -92,7 +60,7 @@ public class TopRatedFragment extends Fragment {
             Document doc;
             doc = docBuilder.parse (getActivity().getAssets().open("data.xml"));
 
-            weatherDataCollection = new ArrayList<HashMap<String,String>>();
+            hashMapList = new ArrayList<HashMap<String,String>>();
 
             // normalize text representation
             doc.getDocumentElement ().normalize ();
@@ -153,12 +121,12 @@ public class TopRatedFragment extends Fragment {
                     map.put(KEY_ICON, ((Node)textIconList.item(0)).getNodeValue().trim());
 
                     //Add to the Arraylist
-                    weatherDataCollection.add(map);
+                    hashMapList.add(map);
                 }
             }
 
 
-            BinderData bindingData = new BinderData(this.getActivity(),weatherDataCollection);
+            BinderData bindingData = new BinderData(this.getActivity(), hashMapList);
 
             //View V = inflater.inflate(R.layout.activity_main,null);
             list = (ListView)rootView.findViewById(R.id.listView);
@@ -188,11 +156,11 @@ public class TopRatedFragment extends Fragment {
 					 * 4.	Temperature
 					 * 5.	Weather icon
 					 */
-                    i.putExtra("city", weatherDataCollection.get(position).get(KEY_CITY));
-                    i.putExtra("weather", weatherDataCollection.get(position).get(KEY_CONDN));
-                    i.putExtra("windspeed", weatherDataCollection.get(position).get(KEY_SPEED));
-                    i.putExtra("temperature", weatherDataCollection.get(position).get(KEY_TEMP_C));
-                    i.putExtra("icon", weatherDataCollection.get(position).get(KEY_ICON));
+                    i.putExtra("city", hashMapList.get(position).get(KEY_CITY));
+                    i.putExtra("weather", hashMapList.get(position).get(KEY_CONDN));
+                    i.putExtra("windspeed", hashMapList.get(position).get(KEY_SPEED));
+                    i.putExtra("temperature", hashMapList.get(position).get(KEY_TEMP_C));
+                    i.putExtra("icon", hashMapList.get(position).get(KEY_ICON));
 
                     // start the sample activity
                     startActivity(i);

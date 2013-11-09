@@ -83,7 +83,7 @@ public class BinderData extends BaseAdapter {
 	      
 	      holder.tvCity.setText(weatherDataCollection.get(position).get(KEY_CITY));
 	      holder.tvWeather.setText(weatherDataCollection.get(position).get(KEY_CONDN));
-	      //holder.tvTemperature.setText(weatherDataCollection.get(position).get(KEY_TEMP_C));
+	      //holder.tvTemperature.setText(hashMapList.get(position).get(KEY_TEMP_C));
 	      
 	      //Setting an image
 	      String uri = "drawable/"+ weatherDataCollection.get(position).get(KEY_ICON);
