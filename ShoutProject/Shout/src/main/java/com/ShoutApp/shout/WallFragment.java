@@ -4,6 +4,7 @@ package com.ShoutApp.shout;
  * Created by vishnu on 11/8/2013.
  */
         //import com.ShoutApp.shout.R;
+        import android.app.FragmentManager;
         import android.os.Bundle;
         import android.support.v4.app.Fragment;
         import android.view.LayoutInflater;
@@ -27,6 +28,12 @@ package com.ShoutApp.shout;
         import android.widget.AdapterView;
         import android.widget.ListView;
         import android.widget.AdapterView.OnItemClickListener;
+        import android.app.DialogFragment;
+        import android.app.Dialog;
+        import android.app.AlertDialog;
+        import android.content.DialogInterface;
+import com.ShoutApp.shout.ShoutRespond;
+
 
 public class WallFragment extends Fragment {
 
@@ -40,10 +47,15 @@ public class WallFragment extends Fragment {
     static final String KEY_SPEED = "windspeed";
     static final String KEY_ICON = "icon";
 
+
+
     // List items
     ListView list;
     BinderData adapter = null;
     List<HashMap<String,String>> hashMapList;
+
+
+
 
 
     @Override
@@ -144,6 +156,17 @@ public class WallFragment extends Fragment {
 
                 public void onItemClick(AdapterView<?> parent, View view,
                                         int position, long id) {
+
+
+
+                    DialogFragment newFragment = new ShoutRespond();
+
+                    //FragmentManager fm=(android.app.FragmentManager) getFragmentManager();
+                    //newFragment.show(fm, "XYXXX");
+
+
+
+                    //sex.show
 
                 /*    Intent i = new Intent();
                     i.setClass( getActivity(), SampleActivity.class);
