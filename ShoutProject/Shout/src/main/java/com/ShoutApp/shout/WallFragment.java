@@ -137,25 +137,21 @@ public class WallFragment extends Fragment {
 
             Log.i("AFTER", "<<------------- After SetAdapter-------------->>");
 
+
+
             // Click event for single list row
             list.setOnItemClickListener(new OnItemClickListener() {
 
                 public void onItemClick(AdapterView<?> parent, View view,
                                         int position, long id) {
 
-                    Intent i = new Intent();
+                /*    Intent i = new Intent();
                     i.setClass( getActivity(), SampleActivity.class);
 
                     // parameters
                     i.putExtra("position", String.valueOf(position + 1));
 
-					/* selected item parameters
-					 * 1.	City name
-					 * 2.	Weather
-					 * 3.	Wind speed
-					 * 4.	Temperature
-					 * 5.	Weather icon
-					 */
+
                     i.putExtra("city", hashMapList.get(position).get(KEY_CITY));
                     i.putExtra("weather", hashMapList.get(position).get(KEY_CONDN));
                     i.putExtra("windspeed", hashMapList.get(position).get(KEY_SPEED));
@@ -163,7 +159,8 @@ public class WallFragment extends Fragment {
                     i.putExtra("icon", hashMapList.get(position).get(KEY_ICON));
 
                     // start the sample activity
-                    startActivity(i);
+                    startActivity(i); */
+
                 }
             });
 
