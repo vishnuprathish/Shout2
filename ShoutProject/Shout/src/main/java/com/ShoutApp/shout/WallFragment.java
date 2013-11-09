@@ -168,21 +168,14 @@ public class WallFragment extends Fragment {
 
                     //sex.show
 
-                /*    Intent i = new Intent();
-                    i.setClass( getActivity(), SampleActivity.class);
+                    Intent intent = new Intent(getActivity(), DisplayMessageActivity.class);
 
                     // parameters
-                    i.putExtra("position", String.valueOf(position + 1));
-
-
-                    i.putExtra("city", hashMapList.get(position).get(KEY_CITY));
-                    i.putExtra("weather", hashMapList.get(position).get(KEY_CONDN));
-                    i.putExtra("windspeed", hashMapList.get(position).get(KEY_SPEED));
-                    i.putExtra("temperature", hashMapList.get(position).get(KEY_TEMP_C));
-                    i.putExtra("icon", hashMapList.get(position).get(KEY_ICON));
+                    intent.putExtra("Compose", "Compose");
+                    startActivity(intent);
 
                     // start the sample activity
-                    startActivity(i); */
+                    //startActivity(i); */
 
                 }
             });

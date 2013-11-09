@@ -93,7 +93,7 @@
         android:clickable="true"
 
         android:longClickable="true"
-        android:background="#ff0c10"
+        android:background="#ff7c6f6f"
         android:enabled="false"
         android:focusableInTouchMode="false"
         android:text="GIVE A SHOUT!!!"
