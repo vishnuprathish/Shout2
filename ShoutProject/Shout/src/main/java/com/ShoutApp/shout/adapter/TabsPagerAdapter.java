@@ -3,9 +3,10 @@ package com.ShoutApp.shout.adapter;
 /**
  * Created by vishnu on 11/8/2013.
  */
-import com.ShoutApp.shout.GamesFragment;
-import com.ShoutApp.shout.MoviesFragment;
-import com.ShoutApp.shout.TopRatedFragment;
+import com.ShoutApp.shout.AlertsFragment;
+import com.ShoutApp.shout.MyShoutsFragment;
+import com.ShoutApp.shout.WallFragment;
+
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -22,13 +23,13 @@ public class TabsPagerAdapter extends FragmentPagerAdapter {
         switch (index) {
             case 0:
                 // Top Rated fragment activity
-                return new TopRatedFragment();
+                return new WallFragment();
             case 1:
                 // Games fragment activity
-                return new GamesFragment();
+                return new MyShoutsFragment();
             case 2:
                 // Movies fragment activity
-                return new MoviesFragment();
+                return new AlertsFragment();
         }
 
         return null;
