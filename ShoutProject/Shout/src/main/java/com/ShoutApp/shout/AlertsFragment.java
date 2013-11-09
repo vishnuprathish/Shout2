@@ -56,7 +56,7 @@ public class AlertsFragment extends Fragment {
             DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
             Document doc;
-            doc = docBuilder.parse (getActivity().getAssets().open("data.xml"));
+            doc = docBuilder.parse (getActivity().getAssets().open("data1.xml"));
 
             hashMapList = new ArrayList<HashMap<String,String>>();
 
