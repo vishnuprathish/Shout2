@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Weather>
+    <weatherdata>
+        <id>4</id>
+        <city>Vlad is interested in your shout for a coffee </city>
+        <tempc>18°C</tempc>
+        <tempf>64.4°F</tempf>
+        <condition>NOW!</condition>
+        <windspeed>7 kmph</windspeed>
+        <icon>vlad</icon>
+    </weatherdata>
+	<weatherdata>
+	    <id>2</id>
+		<city>Shinoy is interested in your shout for biking</city>
+		<tempc>23°C</tempc>
+       	<tempf>73.4°F</tempf>
+		<condition>In half an hour</condition>
+		<windspeed>10 kmph</windspeed>
+		<icon>shinoy</icon>
+	</weatherdata>
+    <weatherdata>
+        <id>1</id>
+        <city>Manoj is interested in your shout for discussion on startup</city>
+        <tempc> 4 Km from here</tempc>
+        <tempf> test</tempf>
+        <condition>Wednesday 4.30 PM</condition>
+        <windspeed>Extreme</windspeed>
+        <icon>manoj</icon>
+    </weatherdata>
+	<weatherdata>
+	    <id>3</id>
+		<city>Radhika is interested in your shout for bowling</city>
+		<tempc>5°C</tempc>
+       	<tempf>41°F</tempf>
+		<condition>NOW!</condition>
+		<windspeed>2 kmph</windspeed>
+		<icon>radhika</icon>
+	</weatherdata>
+
+
+</Weather>
