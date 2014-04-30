@@ -1,4 +1,4 @@
 Shout2
 ======
 
-Epic awesomeness!
+Meet real people real time!
